@@ -151,27 +151,23 @@
         <div class="relative z-10 text-center">
           <!-- Animated Coffee -->
           <div class="floating-coffee text-8xl mb-8">☕</div>
-
           <!-- Heading -->
           <h1 class="text-4xl md:text-5xl font-bold text-teal mb-4">
             Fuel My Code Journey
           </h1>
 
           <!-- Message -->
-          <p class="text-xl md:text-l mb-8 leading-relaxed">
+          <p class="text-xl md:text-l mb-8 leading-relaxed" id="donationContainer">
             Your support helps me create more open-source projects,<br />
             write technical guides, and keep the coffee flowing!<br />
             Every contribution makes a difference 💛
           </p>
 
-          <!-- Donation Button -->
-          <div class="mb-8" data-aos="fade-up" data-aos-delay="300">
-            <button
-              id="donateButton"
-              class="bg-gradient-to-r from-teal to-gold text-navy px-8 py-4 rounded-full text-lg font-bold hover:scale-105 hover:shadow-lg transition-all"
-            >
-              ☕ Buy Me a Coffee
-            </button>
+          <!-- UPI QR Code -->
+          <div class="my-6 flex flex-col items-center">
+            <p class="mb-4 text-teal">Scan to support via UPI</p>
+            <img src="./assests/upi-qr.png" alt="UPI QR Code" class="w-48 h-48 border-4 border-teal rounded-lg mb-4" />
+            <p class="text-gold">UPI ID: ---</p>
           </div>
 
           <!-- Alternative Support -->
@@ -182,10 +178,10 @@
           >
             <p>Other ways to support:</p>
             <div class="flex justify-center space-x-4">
-              <a href="#" class="text-teal hover:text-gold hover:underline"
+              <a href="https://github.com/ajay-panchal-099" class="text-teal hover:text-gold hover:underline"
                 >GitHub Sponsors</a
               >
-              <a href="#" class="text-teal hover:text-gold hover:underline"
+              <a href="https://ajaystack.netlify.app/" class="text-teal hover:text-gold hover:underline"
                 >Share My Work</a
               >
             </div>
