@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "title": "YouTube Shorts Automation",
+      "description": "An automated content generation system leveraging Groq API with LLaMA model for script creation and Reddit API for trending topics. Features video processing with MoviePy, text-to-speech via gTTS, and Pexels API integration. Implements GitHub Actions for scheduling and YouTube Data API v3 for uploads, with robust error handling using tenacity and loguru.",
+      "techStack": ["Python", "Groq API", "MoviePy", "GitHub Actions"],
+      "links": {
+        "github": "https://github.com/ajay-panchal-099/youtube-shorts-automate",
+        "youtube": "https://www.youtube.com/@ajaypanchal2723"
+      }
+    },
+    {
+        "title": "Daily News Update",
+        "description": "A real-time dashboard aggregating trending content from multiple platforms with a focus on Indian trends, featuring hourly updates, detailed trend analysis, and responsive design for seamless cross-device access.",
+        "techStack": ["Python", "Flask", "BeautifulSoup", "Spotipy", "JavaScript", "CSS Grid"],
+        "links": {
+            "github": "https://github.com/ajay-panchal-099/daily-news-trend",
+            "Website": "https://daily-news-trend.onrender.com"
+        }
+    },
+    {
+    "title": "Nokia Snake Game",
+    "description": "A nostalgic recreation of the classic Nokia Snake game from the 90s, featuring authentic pixel-perfect movement, score tracking, and the iconic green LCD display aesthetic.",
+    "techStack": ["HTML5 Canvas", "JavaScript", "Tailwind CSS"],
+    "links": {
+        "github": "https://github.com/ajay-panchal-099/snake-game.git",
+        "demo": "https://ajaystack-snake-game.netlify.app/"
+        }
+    }
+  ]
+}
