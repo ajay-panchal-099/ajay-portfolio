@@ -15,7 +15,7 @@
         "techStack": ["Python", "Flask", "BeautifulSoup", "Spotipy", "JavaScript", "CSS Grid"],
         "links": {
             "github": "https://github.com/ajay-panchal-099/daily-news-trend",
-            "Website": "https://daily-news-trend.onrender.com"
+            "website": "https://daily-news-trend.onrender.com"
         }
     },
     {
